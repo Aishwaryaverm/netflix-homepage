@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+}
+.netflix{
+    width:150px ;
+    height:250px ;
+    position:absolute ;
+    top: 50%;
+    left:50% ;
+    transform:translate(-50%,-50%) ;
+    /*background: #fff;*/
+    text-shadow: #db0001;
+}
+.netflix span{
+    width: 50px;
+    height: 100%;
+    background:#db0001 ;
+    position:absolute;
+
+}
+.left{
+    top: 0%;
+    
+    }
+.center{
+    top:0;
+    left:0;
+    transform:skewX(22deg) ;
+    transform-origin:top left ;
+
+}
+.right{
+    right: 0;
+    bottom:0;
+    /*transform: skewX(22deg);*/
+}
